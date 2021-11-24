@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs/SampleBuzzIn
+/BuzzIn/bin/Debug/net5.0
+/BuzzIn/obj
+/SampleBuzzIn/bin/Debug/net5.0-windows
+/SampleBuzzIn/obj
+/WpfBuzzN/bin/Debug/net5.0-windows
+/WpfBuzzN/obj

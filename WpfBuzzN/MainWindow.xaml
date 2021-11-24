@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfBuzzN.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBuzzN"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#FF060000">
+    <Grid Margin="62,30,123,51" Background="#FFC3BBBB">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <local:Team Grid.Column="0" Grid.Row="0" Background="#FF514A4A" Margin="10,10,10,10"/>
+        <local:Team Grid.Column="1" Grid.Row="0" Background="#FF514A4A" Margin="10,10,10,10"></local:Team>
+        <local:Team Grid.Column="0" Grid.Row="1" Margin="10,14,10,10" Background="#FF514A4A"></local:Team>
+        <local:Team Grid.Column="1" Grid.Row="1" Margin="10,10,10,10" Background="#FF514A4A"></local:Team>
+    </Grid>
+</Window>
