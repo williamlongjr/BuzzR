@@ -12,26 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WpfBuzzN.ViewModels;
 
 namespace WpfBuzzN
 {
     /// <summary>
-    /// Interaction logic for Team.xaml
+    /// Interaction logic for Teams.xaml
     /// </summary>
-    public partial class Team : UserControl
+    public partial class Teams : UserControl
     {
-        //public TeamViewModel ThisViewModel { get; set; }
-        public Team(TeamViewModel teamViewModel)
+        public Teams()
         {
-            DataContext = teamViewModel;
-
             InitializeComponent();
-        }
-
-        private void TeamNameTextBox_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            TeamNameTextBox.IsEnabled = !TeamNameTextBox.IsEnabled;
         }
     }
 }

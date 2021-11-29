@@ -9,15 +9,12 @@
     <Grid Margin="62,30,123,51" Background="#FFC3BBBB">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <local:Team Grid.Column="0" Grid.Row="0" Background="#FF514A4A" Margin="10,10,10,10"/>
-        <local:Team Grid.Column="1" Grid.Row="0" Background="#FF514A4A" Margin="10,10,10,10"></local:Team>
-        <local:Team Grid.Column="0" Grid.Row="1" Margin="10,14,10,10" Background="#FF514A4A"></local:Team>
-        <local:Team Grid.Column="1" Grid.Row="1" Margin="10,10,10,10" Background="#FF514A4A"></local:Team>
+        <TextBox Grid.Row="0" Text="Game"></TextBox>
+        <local:Teams Grid.Row="1"></local:Teams>
     </Grid>
 </Window>
