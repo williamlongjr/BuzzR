@@ -11,7 +11,7 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <TextBox Grid.Row="0" Text="Game"></TextBox>

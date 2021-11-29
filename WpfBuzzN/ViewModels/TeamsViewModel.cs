@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,7 +9,7 @@ namespace WpfBuzzN.ViewModels
 {
     public class TeamsViewModel
     {
-        public List<TeamViewModel> Teams { get; set; } = new List<TeamViewModel>();
+        public ObservableCollection<TeamViewModel> Teams { get; set; } = new ObservableCollection<TeamViewModel>();
 
         public TeamsViewModel()
         {

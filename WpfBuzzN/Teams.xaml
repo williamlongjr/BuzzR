@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:WpfBuzzN"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+    <DataGrid ItemsSource="{Binding Teams}">
+          <Data  
+    </DataGrid>
 </UserControl>
